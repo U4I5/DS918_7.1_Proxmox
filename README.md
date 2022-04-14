@@ -9,7 +9,7 @@
 - Sur votre proxmox dans **Shell** : monter tinycore-redpill.v0.4.6.img dans votre vm avec la commande : 
 
       > qm importdisk (le ID de votre VM) /var/lib/vz/dump/tinycore-redpill.v0.4.6.img local-lvm
-- Puis metter le disk  en sata 0 puis confirmer 
+- Puis metter le disk  en sata 0 et confirmer 
 - Demarrer  votre VM puis sur Tiny core recuperer l'adresse ip avec la commande :
 
       > ifconfig
