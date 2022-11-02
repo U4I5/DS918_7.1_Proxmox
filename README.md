@@ -44,7 +44,7 @@
         > ./rploader.sh build apollolake-7.1.0-42661
    
   ## Récupération du Fichier loader.img
-  - le fichier **loader.img** est le fichier Contenant la compilation finale de la version **7.1** du Model **DS918+** avce le pilote **intel e1000**
+  - le fichier **loader.img** est le fichier Contenant la compilation finale de la version **7.1** du Model **DS918+** avec le pilote **intel e1000**
   - Vous Pouvez la recupérer avec **Filezilla** ou **scp** et le mettre sur votre PC
   - L'emplacement du fichier loader
   
@@ -57,4 +57,4 @@
   - Taper cette commande :
   
  
-             > ./rploader.sh clean now;  rm -rf /mnt/sdb3/auxfiles;  rm -rf /home/tc/custom-module;  ./rploader.sh backup now;
+             > ./rploader.sh backup now
